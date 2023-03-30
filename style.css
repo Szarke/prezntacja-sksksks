@@ -1,0 +1,193 @@
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+      }
+      .mySlides {
+        display: none;
+      }
+      img {
+        vertical-align: middle;
+      }
+
+      .slideshow-container {
+        max-width: 1800px;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        margin-top: 150px;
+      }
+
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: black;
+        font-weight: bold;
+        font-size: 50 px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      .fade{
+        font-family: 'Lato', sans-serif;
+      }
+
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      .text {
+        color: black;
+        font-size: 40px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        animation: nigger 3s 0s linear forwards;
+      }
+
+      .text1 {
+        color: black;
+        font-size: 50px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 100px;
+        width: 100%;
+        text-align: center;
+        top: 200px;
+        animation: nigger 3s 0s linear forwards;
+      }
+      @keyframes nigger {
+        from { opacity:0%;
+          top: -200px;
+          filter:hue-rotate(180deg);
+        }
+        to { opacity: 100%;
+          top: 90px;
+        filter:hue-rotate(0deg);
+        }
+      }
+      .text2 {
+        color: black;
+        font-size: 50px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+       
+        margin-bottom: 50px;
+        animation: nigger 3s 0s linear forwards;
+      }
+      .text3 {
+        color: black;
+        font-size: 35px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+        animation: nigger 3s 0s linear forwards;
+      }
+      .text4 {
+        color: black;
+        font-size: 50px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 200px;
+        animation: nigger 3s 0s linear forwards;
+      }
+      .text10 {
+        color: black;
+        font-size: 50px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 100px;
+        width: 100%;
+        text-align: center;
+        animation: nigger 3s 0s linear forwards;
+      }
+      .text8 {
+        color: black;
+        font-size: 25px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        animation: nigger 3s 0s linear forwards;
+      }
+
+      .numbertext {
+        color: black;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active,
+      .dot:hover {
+        background-color: #717171;
+      }
+
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        text-Shadow: 0px 0px 10px white;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0%;
+        }
+        to {
+          opacity: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px;
+        }
+      }
+      body {
+        background: linear-gradient(45deg, rgba(0, 0, 255, 0.486), rgba(0, 128, 0, 0.5)) ; 
+        
+      }
+      img {
+        height: 700px;
+        opacity: 0.3;
+      }
